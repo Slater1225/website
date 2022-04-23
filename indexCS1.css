@@ -1,0 +1,178 @@
+body {
+  background: url(darkblue.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#box {
+  background-color: black;
+  position: absolute;
+  width: 101.2%;
+  height:90px;
+  background: rgba(0, 0, 0, 0.9);
+  top: -12px;
+  left: -0.8%;
+}
+
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top:35px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  font-size: 28px;
+  font-family: 'Century Gothic',sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 22px 22px;
+  border: 1px solid #fff transparent;
+}
+
+ul li a:hover{
+  border-radius: 15px;
+  color: black;
+  content: "";
+  background-color: darkorange;
+  transition: 0.6s;
+}
+ 
+p{
+  padding-left: 35px;
+}
+.mobiapp {
+  z-index: 100;
+  position: absolute;
+  left: 900px;
+  bottom: 20px;
+}
+.logu {
+  z-index: 100;
+  position: absolute;
+  left: 1250px;
+  bottom: 200px;
+}
+.logu p{
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+#TroubleS {
+  border-radius: 18px;
+  width: 700px;
+  height: 75px;
+  margin-top: 100;
+  margin-left: 100;
+  margin-bottom: 100;
+  background-color: #5e17eb;
+}
+
+#TroubleS h5{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 40px;
+  position: relative;
+  top: 15%;
+  text-transform: capitalize;
+}
+#TroubleS p{
+  text-indent: 25px;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#Socials {
+  border-radius: 18px;
+  width: 700px;
+  height: 75px;
+  margin: 100px;
+  background-color: #ff1616;
+}
+
+#Socials h5{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 40px;
+  position: relative;
+  top: 15%;
+  text-transform: capitalize;
+}
+#Socials p{
+  text-indent: 25px;
+  font-size: 25px;
+  font-family: 'Century Gothic',sans-serif;
+  color: white;
+}
+
+#Recoms {
+  position: absolute;
+  border-radius: 18px;
+  width: 700px;
+  height: 75px;
+  margin: 100px;
+  background-color: #ff5c10;
+}
+
+#Recoms h5{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 40px;
+  position: relative;
+  top: 15%;
+  text-transform: capitalize;
+}
+
+#Recoms p{
+  text-indent: 25px;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+
+button{
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 10px 25px;
+}
+
+.model-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal {
+  background-color: #fff;
+
+}
